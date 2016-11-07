@@ -1,0 +1,3 @@
+Newly implemented feature in v1.03:
+- Two way communication between retreat controller and lock requester, with new feature to shut down the retreat controller externally, and to set and read voltages out of retreat controller
+- More safety precaution to prevent the sudden shutdown of retreat controller
