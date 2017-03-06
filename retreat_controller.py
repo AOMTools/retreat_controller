@@ -539,5 +539,8 @@ rand = random.Random(  )
 root = Tkinter.Tk(  )
 root.title("Cavity Retreat Version 1.03")
 
+img = Tkinter.PhotoImage(file='icon.png')
+root.tk.call('wm', 'iconphoto', root._w, img)
+
 client = ThreadedClient(root)
 root.mainloop(  )
